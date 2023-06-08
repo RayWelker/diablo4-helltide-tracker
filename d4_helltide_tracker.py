@@ -2,8 +2,8 @@ import requests
 import time
 from datetime import datetime
 
-# Save the most recent report's timestamp
-last_report_time = 0
+# Set the last report's timestamp to the current time
+last_report_time = int(time.time() * 1000)  # Current time in milliseconds
 
 while True:
     response = requests.get('https://diablo4.life/api/trackers/helltide/reportHistory')
