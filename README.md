@@ -19,7 +19,7 @@ This Python script periodically checks the Diablo 4 Helltide report history from
 2. Run the script:
 
     ```
-    python d4_helltide_tracker.py
+    python3 d4_helltide_tracker.py
     ```
 
 3. The script will run indefinitely, checking for new reports every 5 minutes. To stop the script, press Ctrl+C.
